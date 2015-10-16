@@ -1,0 +1,21 @@
+.my-website-section {
+	text-align: center;
+	background-color: #99FF99;
+	height: 90%;
+	background-image: url(http://i.kinja-img.com/gawker-media/image/upload/krizzghfqegk0fv0g3ey.gif);
+	background-size: 90%;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile-pic {
+	width: 150px;
+	border-radius: 75px;
+}
+
+.my-website-div {
+	color: white;
+	font-family: century;
+}
