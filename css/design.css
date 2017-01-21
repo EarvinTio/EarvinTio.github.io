@@ -1,0 +1,141 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	margin: 0px;
+}
+
+h1, h2, p, .close {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 3.5em;
+	margin: 0.67em 0 0.2em 0;
+}
+
+h2 {
+	font-size: 2em;
+	color: #58E9A6;
+	margin: 0.83em 0 0.2em 0;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+.small {
+	font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a { /*hover and visited */
+	color: #58E9A6;
+	text-decoration: none;
+	font-style: italic;
+}
+.web-content {
+	display: block;
+	position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.container {
+	padding: 10px;
+}
+
+.content-left {
+	width: 30%;
+	background: #8F8F8F; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #8F8F8F, #68A88A); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #8F8F8F, #68A88A); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #8F8F8F, #68A88A); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #8F8F8F, #68A88A); /* Standard syntax */
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.content-right {
+	width: 70%;
+	position: relative;
+}
+
+.content-left, .content-right {
+	height: 100%;
+	float: left;
+}
+
+.tile:nth-child(1), .tile:nth-child(2) {
+	margin-bottom: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.tile:nth-child(2) {top: 0; right: 0;}
+.tile:nth-child(3) {bottom: 0; left: 0;}
+.tile:nth-child(4) {bottom: 0; right: 0;}
+
+.tile {
+	margin-left: 10px;
+	width: calc(50% - 10px);
+	height: calc(50% - 5px);
+	background: #8F8F8F; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #8F8F8F, #68A88A); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #8F8F8F, #68A88A); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #8F8F8F, #68A88A); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #8F8F8F, #68A88A); /* Standard syntax */
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+	text-align: center;
+}
+
+.tile hr {
+	width: 35%;
+	margin-bottom: 15px;
+}
+
+#work-content, #resume-content, #lettering-content, #poetry-content {
+	opacity: 0;
+}
+
+#work-content img {
+	width: 50%;
+}
+
+.close {
+	font-size: 3.5em;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	z-index: 4;
+}
+
+#email-text {
+	display: none;
+}
+
+.kw {
+	color: #58E9A6;
+}
+
+/* STYLE A SCROLL BAR
+
+CHECK WEBKIT/MOZ/MS PREFIXES */
