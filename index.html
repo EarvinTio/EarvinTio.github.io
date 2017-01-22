@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
         <title>| Design with Passion.</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Personal Website">
         <meta name="keywords" content="Biology,Job,University,Waterloo,Biomedical,Student,Engineering,Systems Design">
@@ -87,10 +88,10 @@
             <p>For instance, I enjoy <b>lettering</b>, <b>spoken-word poetry</b>, and playing <b>volleyball</b> in my free time!</p>
             <h2>CONTACT ME (say hi!)</h2>
             <div class="form-style">
-            <form action="contact.php" method="post">
-                <input type="text" name="cf_name" placeholder="Hello! What's your name?" />
-                <input type="text" name="cf_email" placeholder="What's your email?" />
-                <textarea name="cf_message" placeholder="Leave me a message!" onkeyup="adjust_textarea(this)"></textarea>
+            <form action="send_form_email.php" method="post">
+                <input type="text" name="first_name" placeholder="Hello! What's your name?" />
+                <input type="text" name="email" placeholder="What's your email?" />
+                <textarea name="comments" placeholder="Leave me a message!" onkeyup="adjust_textarea(this)"></textarea>
             </div>
             <div class="form-buttons">
                 <input type="submit" value="Send away!" class="btn">
