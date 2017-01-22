@@ -74,6 +74,12 @@ if ($('#five').offset().top < ($(window).scrollTop() + ($(window).height() / 2))
     }
 });
 
+function error() {
+    alert("Sorry this feature seems to be running into some trouble. Please email me instead at earvin.tio@gmail.com. Thank you!");
+}
+
+$("input[type='button']").on("click", error);
+    
 });
 
 //auto expand textarea
