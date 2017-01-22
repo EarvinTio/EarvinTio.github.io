@@ -88,11 +88,10 @@
             <p>For instance, I enjoy <b>lettering</b>, <b>spoken-word poetry</b>, and playing <b>volleyball</b> in my free time!</p>
             <h2>CONTACT ME (say hi!)</h2>
             <div class="form-style">
-<!--             form action needs a .php file -->
-            <form action="" method="post">
-                <input type="text" name="first_name" placeholder="Hello! What's your name?" />
+            <form action="mail.php" method="post">
+                <input type="text" name="name" placeholder="Hello! What's your name?" />
                 <input type="text" name="email" placeholder="What's your email?" />
-                <textarea name="comments" placeholder="Leave me a message!" onkeyup="adjust_textarea(this)"></textarea>
+                <textarea name="message" placeholder="Leave me a message!" onkeyup="adjust_textarea(this)"></textarea>
             </div>
             <div class="form-buttons">
                 <input type="submit" value="Send away!" class="btn">
