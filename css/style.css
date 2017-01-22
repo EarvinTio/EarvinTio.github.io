@@ -98,10 +98,6 @@ ul.nav li a.white {border-top-color: #fff; opacity: 1;}
 
 ul.nav li a.black {border-top-color: #000; opacity: 1;}
 
-@media screen and (max-width: 600px){
-/*sandwhich menu*/
-}
-
 .parallax { 
     /* Full height */
     height: 100%; 
@@ -265,4 +261,44 @@ ul.nav li a.black {border-top-color: #000; opacity: 1;}
 
 .form-buttons input[type="reset"]:hover {
     box-shadow: inset 250px 0 0 0 #58E9A6;
+}
+
+.mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .nav {
+    	display: none;
+    }
+
+    #one h1 {
+    	font-size: 4em;
+    }
+
+    h1 {
+    	font-size: 2em;
+    }
+
+    #one div {
+    	width: 90%;
+    }
+
+    #four{
+    	min-height: 0;
+    }
+
+    .four-container img {
+        display: none;
+    }
+
+    .four-container div {
+    	float: none;
+    	display: inline-block;
+    }
+
+    #four > h1:after {
+    	content: "Skills";
+    }
 }
