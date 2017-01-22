@@ -246,7 +246,7 @@ ul.nav li a.black {border-top-color: #000; opacity: 1;}
 }
 
 .form-buttons input[type="reset"], 
-.form-buttons input[type="submit"]{
+.form-buttons input[type="button"]{
     background-color: #fff;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 300;
@@ -255,7 +255,7 @@ ul.nav li a.black {border-top-color: #000; opacity: 1;}
     text-decoration: none;
 }
  
-.form-buttons input[type="submit"]:hover {
+.form-buttons input[type="button"]:hover {
     box-shadow: inset 150px 0 0 0 #58E9A6;
 }
 
