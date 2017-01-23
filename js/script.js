@@ -1,11 +1,13 @@
 $( document ).ready(function() {
 
 $(document).on('click', '.nav a', function(event){
-    event.preventDefault();
+    if ($(this).attr("id") != "resume"){
+        event.preventDefault();
 
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top + 1
-    }, 700);
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top + 1
+        }, 700);
+    }
 });
 
 $(window).scroll(function () {
@@ -79,7 +81,21 @@ function error() {
 }
 
 $("input[type='button']").on("click", error);
-    
+
+function mobileSkills() {
+    if($(this).hasClass("activeSkill")){
+        $(this).siblings("p").css("display", "none");
+        $(this).removeClass("activeSkill");
+    } else {
+        $(".four-container > div p:nth-child(1)").removeClass("activeSkill");
+        $(this).addClass("activeSkill");
+        $('.four-container > div p:nth-child(n+2)').css("display", "none");
+        $(this).siblings("p").css("display", "block");
+    }
+}
+
+$('.four-container > div p:nth-child(1)').on("touchstart", mobileSkills);
+
 });
 
 //auto expand textarea
