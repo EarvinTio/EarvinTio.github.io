@@ -267,6 +267,16 @@ ul.nav li a.black {border-top-color: #000; opacity: 1;}
 	display: none;
 }
 
+@media only screen and (max-width: 897px) {
+/*    .four-container div {
+        float: none;
+        display: inline-block;
+    }*/
+    .four-container div:nth-child(2n+1) {
+        clear: left;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .nav {
@@ -289,16 +299,29 @@ ul.nav li a.black {border-top-color: #000; opacity: 1;}
     	min-height: 0;
     }
 
+    .four-container {
+        padding-top: 0px;
+    }
+
     .four-container img {
         display: none;
     }
 
     .four-container div {
     	float: none;
-    	display: inline-block;
+        padding: 0px;
     }
 
     #four > h1:after {
     	content: "Skills";
+    }
+
+    .four-container > div p:nth-child(1) {
+        padding: 10px;
+        border: 2px solid #58E9A6;
+    }
+
+    .four-container > div p:nth-child(n+2) {
+        display: none;
     }
 }
