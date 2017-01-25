@@ -267,6 +267,10 @@ ul.nav li a.black {border-top-color: #000; opacity: 1;}
 	display: none;
 }
 
+input:focus {
+	outline: none;
+}
+
 @media only screen and (max-width: 897px) {
 /*    .four-container div {
         float: none;
