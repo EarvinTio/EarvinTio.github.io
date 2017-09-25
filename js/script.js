@@ -9,6 +9,7 @@ $(document).ready(function () {
     }, 2000);
 
     var z = 0;
+    var canClick = true;
 
     function expand(section){
         z++;
@@ -34,6 +35,10 @@ $(document).ready(function () {
     };
 
     $(".left p").on("click", function(){
+        if(canClick) {
+
+        canClick = false;
+
         if ($(this).index() == 2)
             expand("aboutme");
         else if ($(this).index() == 3)
@@ -50,6 +55,12 @@ $(document).ready(function () {
                 "opacity": 1
             });
         }, 1200);
+
+        setTimeout(function(){
+            canClick = true;
+        }, 1500);
+
+        }
     });
 
     $(".close").on("click", function(){
@@ -68,9 +79,3 @@ $(document).ready(function () {
     })
 
  });
-
-// Double on click issues
-// widow resize height and align-items issues
-// social media images colors
-// css breakpoints for responsive design
-// currently put a placeholder under ipad screen width
