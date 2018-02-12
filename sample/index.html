@@ -14,7 +14,7 @@ function loadXMLDoc() {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("demo").innerHTML =
-      xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+      this.responseXML.getElementsByTagName("title")[0].childNodes[0].nodeValue;
     }
   };
   xhttp.open("GET", "sample.xml", true);
