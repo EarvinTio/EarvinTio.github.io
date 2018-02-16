@@ -4,7 +4,7 @@
 	   -moz-user-select: none;
 	 -khtml-user-select: none;
 		-ms-user-select: none;
-		-webkit-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
        -moz-transition: all .5s ease;
         -ms-transition: all .5s ease;
          -o-transition: all .5s ease;
