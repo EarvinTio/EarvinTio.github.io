@@ -11,18 +11,18 @@ document.getElementById("button").onclick = function() {
 	updateButton(this);
 };
 
-function updateFields(){
-	var rand = Math.floor(Math.random()*Math.floor(this.responseXML.getElementsByTagName("piece").length+1));
-	console.log(this.responseXML.getElementsByTagName("piece").length); //comment
-	document.getElementById("line").innerHTML = this.responseXML.getElementsByTagName("line")[rand].childNodes[0].nodeValue;
-    document.getElementById("title").innerHTML = this.responseXML.getElementsByTagName("title")[rand].childNodes[0].nodeValue;
-    document.getElementById("author").innerHTML = this.responseXML.getElementsByTagName("author")[rand].childNodes[0].nodeValue;
+function updateFields(xml){
+	var rand = Math.floor(Math.random()*Math.floor(xml.responseXML.getElementsByTagName("piece").length+1));
+	console.log(xml.responseXML.getElementsByTagName("piece").length); //comment
+	document.getElementById("line").innerHTML = xml.responseXML.getElementsByTagName("line")[rand].childNodes[0].nodeValue;
+    document.getElementById("title").innerHTML = xml.responseXML.getElementsByTagName("title")[rand].childNodes[0].nodeValue;
+    document.getElementById("author").innerHTML = xml.responseXML.getElementsByTagName("author")[rand].childNodes[0].nodeValue;
 }
 
-function updateButton(){
-	var rand = Math.floor(Math.random()*Math.floor(this.responseXML.getElementsByTagName("button").length+1));
-	console.log(this.responseXML.getElementsByTagName("button").length); //comment
-	document.getElementById("button").innerHTML = this.responseXML.getElementsByTagName("button")[rand].childNodes[0].nodeValue;
+function updateButton(xml){
+	var rand = Math.floor(Math.random()*Math.floor(xml.responseXML.getElementsByTagName("button").length+1));
+	console.log(xml.responseXML.getElementsByTagName("button").length); //comment
+	document.getElementById("button").innerHTML = xml.responseXML.getElementsByTagName("button")[rand].childNodes[0].nodeValue;
 }
 
 xhttp.open("GET", "../inspire/inspire.xml", true);
