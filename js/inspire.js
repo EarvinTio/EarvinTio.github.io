@@ -7,14 +7,14 @@ xhttp.onreadystatechange = function() {
     console.log(this.responseXML.getElementsByTagName("line").length);
 	console.log(rand);
 	
-	document.getElementById("line").innerHTML = this.responseXML.getElementsByTagName("line")[rand].nodeValue;
-	console.log(this.responseXML.getElementsByTagName("line")[rand].nodeValue);
+	document.getElementById("line").innerHTML = this.responseXML.getElementsByTagName("line")[rand].childNodes[0].nodeValue;
+	console.log(this.responseXML.getElementsByTagName("line")[rand].childNodes[0].nodeValue);
 	
-    document.getElementById("title").innerHTML = this.responseXML.getElementsByTagName("title")[rand].nodeValue;
-	console.log(this.responseXML.getElementsByTagName("title")[rand].nodeValue);
+    document.getElementById("title").innerHTML = this.responseXML.getElementsByTagName("title")[rand].childNodes[0].nodeValue;
+	console.log(this.responseXML.getElementsByTagName("title")[rand].childNodes[0].nodeValue);
 	
-    document.getElementById("author").innerHTML = this.responseXML.getElementsByTagName("author")[rand].nodeValue;
-	console.log(this.responseXML.getElementsByTagName("author")[rand].nodeValue);
+    document.getElementById("author").innerHTML = this.responseXML.getElementsByTagName("author")[rand].childNodes[0].nodeValue;
+	console.log(this.responseXML.getElementsByTagName("author")[rand].childNodes[0].nodeValue);
   }
 };
 
