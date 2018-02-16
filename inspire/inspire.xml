@@ -170,7 +170,13 @@
     <author>Emily Bronte</author>
     <title>Pride and Prejudice</title>
   </piece>
-  <button>hello</button>
-  <button>hi</button>
-  <button>lol</button>
+  <piece>
+    <button>hello</button>
+  </piece>
+  <piece>
+    <button>hi</button>
+  </piece>
+  <piece>
+    <button>lol</button>
+  </piece>
 </entry>
