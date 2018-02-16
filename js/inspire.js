@@ -8,8 +8,8 @@ xhttp.onreadystatechange = function() {
 };
 
 document.getElementById("button").onclick = function() {
-	updateFields(this);
-	updateButton(this);
+	updateFields(xhttp);
+	updateButton(xhttp);
 };
 
 function updateFields(xml){
