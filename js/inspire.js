@@ -13,16 +13,14 @@ document.getElementById("button").onclick = function() {
 };
 
 function updateFields(xml){
-	var rand = Math.floor(Math.random()*Math.floor(xml.responseXML.getElementsByTagName("line").length+1));
-	console.log(xml.responseXML.getElementsByTagName("line").length); //comment
+	var rand = Math.floor(Math.random()*xml.responseXML.getElementsByTagName("line").length);
 	document.getElementById("line").innerHTML = xml.responseXML.getElementsByTagName("line")[rand].childNodes[0].nodeValue;
     document.getElementById("title").innerHTML = xml.responseXML.getElementsByTagName("title")[rand].childNodes[0].nodeValue;
     document.getElementById("author").innerHTML = xml.responseXML.getElementsByTagName("author")[rand].childNodes[0].nodeValue;
 }
 
 function updateButton(xml){
-	var rand = Math.floor(Math.random()*Math.floor(xml.responseXML.getElementsByTagName("button").length+1));
-	console.log(xml.responseXML.getElementsByTagName("button").length); //comment
+	var rand = Math.floor(Math.random()*xml.responseXML.getElementsByTagName("button").length);
 	document.getElementById("button").innerHTML = xml.responseXML.getElementsByTagName("button")[rand].childNodes[0].nodeValue;
 }
 
