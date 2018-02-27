@@ -1,4 +1,8 @@
 var xhttp = new XMLHttpRequest();
+var fieldRand = 0;
+var prevFieldRand = 0;
+var buttonRand = 0;
+var prevButtonRand = 0;
 
 xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
@@ -12,16 +16,27 @@ document.getElementById("button").onclick = function() {
 	updateButton(xhttp);
 };
 
+function noDuplicate(prev) {
+	rand = Math.floor(Math.random()*xml.responseXML.getElementsByTagName("line").length);
+	if (rand != prev) {
+		return rand
+	} else {
+		return noDuplicate(prev)
+	}
+}
+
 function updateFields(xml){
-	var rand = Math.floor(Math.random()*xml.responseXML.getElementsByTagName("line").length);
-	document.getElementById("line").innerHTML = xml.responseXML.getElementsByTagName("line")[rand].childNodes[0].nodeValue;
-    document.getElementById("title").innerHTML = xml.responseXML.getElementsByTagName("title")[rand].childNodes[0].nodeValue;
-    document.getElementById("author").innerHTML = xml.responseXML.getElementsByTagName("author")[rand].childNodes[0].nodeValue;
+	fieldRand = noDuplicate(prevFieldRand);
+	prevFieldRand = fieldRand;
+	document.getElementById("line").innerHTML = xml.responseXML.getElementsByTagName("line")[fieldRand].childNodes[0].nodeValue;
+    document.getElementById("title").innerHTML = xml.responseXML.getElementsByTagName("title")[fieldRand].childNodes[0].nodeValue;
+    document.getElementById("author").innerHTML = xml.responseXML.getElementsByTagName("author")[fieldRand].childNodes[0].nodeValue;
 }
 
 function updateButton(xml){
-	var rand = Math.floor(Math.random()*xml.responseXML.getElementsByTagName("button").length);
-	document.getElementById("button").innerHTML = xml.responseXML.getElementsByTagName("button")[rand].childNodes[0].nodeValue;
+	buttonRand = noDuplicate(prevButtonRand);
+	prevButtonRand = buttonRand;
+	document.getElementById("button").innerHTML = xml.responseXML.getElementsByTagName("button")[buttonRand].childNodes[0].nodeValue;
 }
 
 xhttp.open("GET", "../inspire/inspire.xml", true);
