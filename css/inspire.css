@@ -67,7 +67,8 @@ section {
 
 section div {
 	width: 50vw;
-	height: 65vh;
+	height: 35vh;
+	margin-bottom: 20vh;
 }
 
 p {
