@@ -65,10 +65,14 @@ section {
 	align-items: center;
 }
 
-section div {
+section > div {
 	width: 50vw;
+	height: 55vh;
+}
+
+div > div {
+	width: 100%;
 	height: 35vh;
-	margin-bottom: 20vh;
 }
 
 p {
@@ -82,7 +86,7 @@ p:nth-child(1) {
 	margin-bottom: 0.5em
 }
 
-p:nth-child(2) {
+.sub {
 	font-size: 2em;
 	margin: 0;
 }
