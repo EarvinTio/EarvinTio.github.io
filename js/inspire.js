@@ -16,7 +16,7 @@ document.getElementById("button").onclick = function() {
 	updateButton(xhttp);
 };
 
-function noDuplicate(prev) {
+function noDuplicate(prev, xml) {
 	rand = Math.floor(Math.random()*xml.responseXML.getElementsByTagName("line").length);
 	if (rand != prev) {
 		return rand
@@ -26,7 +26,9 @@ function noDuplicate(prev) {
 }
 
 function updateFields(xml){
-	fieldRand = noDuplicate(prevFieldRand);
+	console.log("prevFieldRand is ${prevFieldRand}.\n");
+	fieldRand = noDuplicate(prevFieldRand, xml);
+	console.log("fieldRand is ${fieldRand}.\n");
 	prevFieldRand = fieldRand;
 	document.getElementById("line").innerHTML = xml.responseXML.getElementsByTagName("line")[fieldRand].childNodes[0].nodeValue;
     document.getElementById("title").innerHTML = xml.responseXML.getElementsByTagName("title")[fieldRand].childNodes[0].nodeValue;
@@ -34,7 +36,9 @@ function updateFields(xml){
 }
 
 function updateButton(xml){
-	buttonRand = noDuplicate(prevButtonRand);
+	console.log("prevButtonRand is ${prevButtonRand}.\n");
+	buttonRand = noDuplicate(prevButtonRand, xml);
+	console.log("buttonRand is ${buttonRand}.\n");
 	prevButtonRand = buttonRand;
 	document.getElementById("button").innerHTML = xml.responseXML.getElementsByTagName("button")[buttonRand].childNodes[0].nodeValue;
 }
