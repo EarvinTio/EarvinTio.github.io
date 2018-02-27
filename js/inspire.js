@@ -22,8 +22,11 @@ function noDuplicate(prev, xml, button) {
 	} else {
 		rand = Math.floor(Math.random()*xml.responseXML.getElementsByTagName("line").length);
 	}
-	if (rand != prev) {return rand}
-	else {return noDuplicate(prev)}
+	if (rand != prev) {
+		return rand
+	} else {
+		return noDuplicate(prev, xml, button)
+	}
 }
 
 function updateFields(xml){
