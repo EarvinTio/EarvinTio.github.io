@@ -18,11 +18,18 @@ $(document).ready(function() {
 
 });
 
-$(document).ready(function() {
+// $(document).ready(function() {
+// 	$("body").css("overflow-y", "scroll");
+// 	$(".loader").css("opacity", "0");
+// });
+
+$(window).on("load", function() {
+
 	$("body").css("overflow-y", "scroll");
 	$(".loader").css("opacity", "0");
-});
+	$(".loader").one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',   
+	function(e) {
+		$(".loader").css("z-index", "-3");
+	});
 
-$(document).ready(function() {
-	$(".loader").css("z-index", "-3");
 });
