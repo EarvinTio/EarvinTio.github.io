@@ -7,7 +7,7 @@ html, body {
 .content {
 	max-width: 1500px;
 	width: 90vw;
-	margin: 32vh auto 10vh auto;
+	margin: 40vh auto 10vh auto;
 }
 
 nav {
@@ -96,7 +96,7 @@ nav > div > h2:hover, .dropdown:hover {
 	display: grid;
 	grid-template-columns: 29vw 29vw 29vw;
 	grid-gap: 1.5vw;
-	margin-top: 8vh;
+    margin-top: 5vh;
 }
 
 .grid-item {
@@ -176,4 +176,13 @@ nav > div > h2:hover, .dropdown:hover {
 footer {
 	text-align: center;
 	margin-top: 5vh;
+}
+
+@media only screen and (min-width: 1500px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 480px 480px 480px;
+        grid-gap: 30px;
+        margin-top: 5vh;
+    }
 }
