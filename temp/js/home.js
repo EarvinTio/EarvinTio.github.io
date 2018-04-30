@@ -18,11 +18,6 @@ $(document).ready(function() {
 
 });
 
-// $(document).ready(function() {
-// 	$("body").css("overflow-y", "scroll");
-// 	$(".loader").css("opacity", "0");
-// });
-
 $(window).on("load", function() {
 
 	$("body").css("overflow-y", "scroll");
