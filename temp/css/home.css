@@ -7,7 +7,7 @@ html, body {
 .content {
 	max-width: 1500px;
 	width: 90vw;
-	margin: 40vh auto 10vh auto;
+	margin: 0 auto 10vh auto;
 }
 
 nav {
@@ -82,12 +82,12 @@ nav > div > h2:hover, .dropdown:hover {
 	opacity: 1;
 }
 
-.content > h1 {
+.myText > h1 {
 	font-size: 3.3em;
 	margin-bottom: 0;
 }
 
-.content > p {
+.myText > p {
 	font-size: 1.1em;
 	margin-top: 0;
 }
