@@ -20,5 +20,8 @@ $(document).ready(function () {
 
 $(window).on("load", function() {
 	$("body").css("overflow-y", "scroll");
-	$(".loader").css("opacity", "0");
+	$(".loader")
+		.css("opacity", "0")
+		.delay(1000)
+		.css("z-index", "-3");
 });
