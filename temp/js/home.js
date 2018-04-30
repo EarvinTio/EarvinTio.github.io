@@ -19,8 +19,6 @@ $(document).ready(function () {
 });
 
 $(window).on("load", function() {
-	$("body").css("overflow", "scroll");
-	$(".loader")
-		.animate({"opacity": "0"}, 2000)
-		.css("z-index", "-1");
+	$("body").css("overflow-y", "scroll");
+	$(".loader").css("opacity", "0");
 });
