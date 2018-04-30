@@ -23,6 +23,6 @@ $(document).ready(function() {
 	$(".loader").css("opacity", "0");
 });
 
-$(window).on("load", function() {
+$(document).ready(function() {
 	$(".loader").css("z-index", "-3");
 });
