@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
 	h2Margin = $(".dropdown > h2").css("margin-left");
 	$(".dropdown-content a").css("margin", "0.8em " + h2Margin);
@@ -18,10 +18,11 @@ $(document).ready(function () {
 
 });
 
-$(window).on("load", function() {
+$(document).ready(function() {
 	$("body").css("overflow-y", "scroll");
-	$(".loader")
-		.css("opacity", "0")
-		.delay(1000)
-		.css("z-index", "-3");
+	$(".loader").css("opacity", "0");
+});
+
+$(window).on("load", function() {
+	$(".loader").css("z-index", "-3");
 });
