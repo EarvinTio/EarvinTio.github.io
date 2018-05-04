@@ -3,6 +3,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	overflow: hidden;
+	font-size: 16px;
 }
 
 .loader {
@@ -189,11 +190,11 @@ footer {
 	margin-top: 5vh;
 }
 
-@media only screen and (min-width: 1500px) {
-    .grid-container{
-        display: grid;
-        grid-template-columns: 480px 480px 480px;
-        grid-gap: 30px;
-        margin-top: 5vh;
-    }
+@media only screen and (min-width: 93.75em) {
+	.grid-container{
+		display: grid;
+		grid-template-columns: 480px 480px 480px;
+		grid-gap: 30px;
+		margin-top: 5vh;
+	}
 }

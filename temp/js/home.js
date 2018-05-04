@@ -27,6 +27,4 @@ $(window).on("load", function() {
 		$(".loader").css("z-index", "-3");
 	});
 
-console.log($(window).width())
-
 });
