@@ -17,13 +17,13 @@ html, body {
 }
 
 .content {
-	max-width: 1500px;
+	max-width: 93.75em;
 	width: 90vw;
 	margin: 0 auto 10vh auto;
 }
 
 nav {
-	max-width: 1500px;
+	max-width: 93.75em;
 	width: 90vw;
 	display: flex;
 	justify-content: space-between;
@@ -193,8 +193,8 @@ footer {
 @media only screen and (min-width: 93.75em) {
 	.grid-container{
 		display: grid;
-		grid-template-columns: 480px 480px 480px;
-		grid-gap: 30px;
+		grid-template-columns: 30em 30em 30em;
+		grid-gap: 1.875em;
 		margin-top: 5vh;
 	}
 }
