@@ -44,8 +44,7 @@ function resizeNav() {
 	// overflow-y changes the width and makes nav spill over the scroll bar 
 	contentWidth = $(".content").outerWidth(true);
 	$("nav").css("width", contentWidth);
-	console.log("called")
 }
 
 window.onload = resizeNav;
-window.resize = resizeNav;
+window.onresize = resizeNav;
