@@ -1,0 +1,19 @@
+section img {
+	display: block;
+	width: 20vw;
+	margin: 1em auto;
+}
+
+ul {list-style: none;}
+
+li::before {
+	content: "\2022";
+	color: orange;
+	display: inline-block;
+	width: 2em;
+	margin-left: 1em;
+}
+
+p, li {line-height: 1.5em;}
+
+.date {color: #AAA;}
