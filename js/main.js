@@ -33,13 +33,19 @@ $(window).on("load", function() {
 		$(".loader").css("z-index", "-3");
 	});
 
-	// overflow-y changes the width and makes nav spill over the scroll bar 
-	contentWidth = $(".content").outerWidth(true);
-	$("nav").css("width", contentWidth);
-
 	// adds 2.5em padding to the left of .introText regardless of the size of the image
 	imgWidth = $("#me").width();
 	introMargin = imgWidth + $(window).width()*0.025;
 	$(".introText").css("margin-left", introMargin.toString() + "px");
 
 });
+
+function resizeNav() {
+	// overflow-y changes the width and makes nav spill over the scroll bar 
+	contentWidth = $(".content").outerWidth(true);
+	$("nav").css("width", contentWidth);
+	console.log("called")
+}
+
+window.onload = resizeNav;
+window.resize = resizeNav;
