@@ -83,14 +83,19 @@ section img {position: absolute;}
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    color: orange;
     background-color: #fff;
     text-align: center;
   }
 
-  .resp > p {
+  .resp > div {
     max-width: 80vw;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
   }
+
+  .resp > div > p > a {
+    text-decoration: none;
+    color: orange;
+    font-family: inherit;
+  }
+
+  .resp > div > a > img {background-color: orange; max-width: 20vw;}
 }
