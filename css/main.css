@@ -87,11 +87,6 @@ section h2 {font-size: 1.7em;}
 section h3 {font-size: 1.5em;}
 section p, li {font-size: 1.2em;}
 
-.left {width: 20vw; min-width: 20vw;}
-
-.exptext {margin-left: 5vw;}
-.exptext > p {margin-left: 2vw;}
-
 footer {
 	text-align: center;
 	margin: 0 auto;

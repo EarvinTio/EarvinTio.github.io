@@ -16,4 +16,8 @@ li::before {
 
 p, li {line-height: 1.5em;}
 
+.left {width: 20vw; min-width: 20vw; position: fixed;}
+.exptext {margin-left: 25vw;}
+.exptext > p {margin-left: 2vw;}
+
 .date {color: #AAA;}

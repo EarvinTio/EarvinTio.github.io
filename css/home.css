@@ -1,7 +1,13 @@
 @media only screen and (min-width: 43.125em) {
 
 section img {position: absolute;}
+
 .introText {width: 100%;}
+
+.left {width: 20vw; min-width: 20vw;}
+
+.exptext {margin-left: 5vw;}
+.exptext > p {margin-left: 2vw;}
 .exptext > h3, p {transition: font-size 0.5s ease;}
 .exptext > h3:hover {font-size: 1.8em; cursor: pointer;}
 
