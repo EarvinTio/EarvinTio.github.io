@@ -1,3 +1,5 @@
+@media only screen and (min-width: 43.125em) {
+
 section img {position: absolute;}
 .introText {width: 100%;}
 .exptext > h3, p {transition: font-size 0.5s ease;}
@@ -63,3 +65,32 @@ section img {position: absolute;}
 }
 
 /*-------------------------------Developed By Codeconvey.com-------------------------------*/
+
+}
+
+@media only screen and (max-width: 43.125em) {
+  html, body {
+    overflow: hidden;
+  }
+
+  .resp {
+    display: flex;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: orange;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .resp > p {
+    max-width: 80vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+  }
+}
