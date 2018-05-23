@@ -1,3 +1,5 @@
+section a:link, section a:visited {border-bottom: solid 0.15em orange;}
+
 section img {
 	display: block;
 	width: 20vw;

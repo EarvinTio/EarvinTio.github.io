@@ -2,6 +2,15 @@
 
 section img {position: absolute;}
 
+a img {position: relative;}
+h3 a img:nth-child(1) {margin-right: 0.5em;}
+h3 a img:nth-child(2) {
+  background-color: #000;
+  max-width: 0.9em;
+  transition: background-color 0.5s ease;
+  margin-left: 0.1em;
+}
+
 .introText {width: 100%;}
 
 .left {width: 20vw; min-width: 20vw;}
@@ -10,6 +19,9 @@ section img {position: absolute;}
 .exptext > p {margin-left: 2vw;}
 .exptext > h3, p {transition: font-size 0.5s ease;}
 .exptext > h3:hover {font-size: 1.8em; cursor: pointer;}
+/*.exptext > h3:hover > a:nth-child(2) {color: orange;}*/
+.exptext > h3:hover > a img:nth-child(2) {background-color: orange;}
+/*.exptext > h3 > a {margin: 0 0.1em 0 0.5em;}*/
 
 /*-------------------------------Developed By Codeconvey.com-------------------------------*/
 
