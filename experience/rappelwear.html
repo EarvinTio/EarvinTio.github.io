@@ -44,6 +44,20 @@
                         <li>Bluetooth communication between Android Studio and a Bluno Beetle</li>
                         <li>App development in Android Studio</li>
                     </ul>
+                    <h3>PCB Design</h3>
+                    <p>The printed circuit board RappelWear utilizes was designed in Autodesk's EAGLE software. The design was first created as a schematic, seen below on the upper left, before being tested with a breadboard. After sufficient testing and redesigns, the final schematic was used to create a PCB layout in EAGLE, seen below on the upper right. The design was sent for printing and the printed circuit board can be seen on the bottom left. The components, wires, and electrodes were then soldered onto the board and the final PCB can be seen on the bottom right.</p>
+                    <div class="grid-container">
+                      <div class="grid-item" id="schematic_grid"><a href="../images/rappelwear/schematic.png" target="_blank"><div id="schematic"></div></a></div>
+                      <div class="grid-item" id="pcb_grid"><a href="../images/rappelwear/pcb.png" target="_blank"><div id="pcb"></div></a></div>
+                      <div class="grid-item" id="without_components_grid"><a href="../images/rappelwear/without_components.jpg" target="_blank"><div id="without_components"></div></a></div>
+                      <div class="grid-item" id="with_components_grid"><a href="../images/rappelwear/with_components.jpg" target="_blank"><div id="with_components"></div></a></div>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>The ML portion of RappelWear is implemented in Python using the module <a href="https://dmbee.github.io/seglearn/" target="_blank">seglearn</a> which can be found in <a href="http://scikit-learn.org/stable/index.html" target="_blank">scikit-learn</a>. The feature data is preprocessed and fed into the pipeline with the appropriate time step and overlap period to produce a discrete probabilistic approximation. Below are the linear discriminant analysis (left) and the confusion matrix (right) of a trial train-and-test run.</p>
+                    <div class="grid-container">
+                      <div class="grid-item" id="lda_grid"><a href="../images/rappelwear/LDA.png" target="_blank"><div id="lda"></div></a></div>
+                      <div class="grid-item" id="confusion_matrix_grid"><a href="../images/rappelwear/confusion_matrix.png" target="_blank"><div id="confusion_matrix"></div></a></div>
+                    </div>
                 </div>
             </section>
         </div>
