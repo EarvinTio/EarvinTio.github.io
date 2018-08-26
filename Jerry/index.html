@@ -20,13 +20,13 @@
     <body>
         <nav>
             <div class="container">
-                <div><a>About Me</a><a>Projects</a></div>
-                <div><a>JERRY LIU</a></div>
-                <div><a>Passions</a></div>
+                <div><a href="#about">About Me</a><a href="#projects">Projects</a></div>
+                <div><a href="#jerry" class="active">JERRY LIU</a></div>
+                <div><a href="#passions">Passions</a></div>
             </div>
         </nav>
-        <section>
-            <div class="aboutme">
+        <section id="jerry">
+            <div class="jerry">
                 <div class="column-3">
                     <div>
                     <h2>SUMMARY</h2>
@@ -36,7 +36,7 @@
                         <li>Cultured AF (he's going to Korea)</li>
                         <li>Goes to the gym</li>
                     </ul>
-                    <a>Resume</a>
+                    <a href="resume.pdf" alt="Resume" title="Resume" target="_blank">Resume</a>
                 </div>
                 </div>
                 <div class="column-3">
@@ -46,23 +46,23 @@
                     <div>
                         <h2>INFO</h2>
                     <ul id="links">
-                        <li><img src="images/icons/linkedin.svg" />LinkedIn</li>
-                        <li><img src="images/icons/github.png" />GitHub</li>
-                        <li><img src="images/icons/facebook.svg" />Facebook</li>
-                        <li><img src="images/icons/instagram.svg" />Instagram</li>
+                        <li><a href="https://www.linkedin.com/in/liu-jerry/" alt="LinkedIn" title="LinkedIn" target="_blank"><img src="images/icons/linkedin.svg" />LinkedIn</a></li>
+                        <li><a href="https://github.com/jerryliu3" alt="GitHub" title="GitHub" target="_blank"><img src="images/icons/github.png" />GitHub</a></li>
+                        <li><a href="https://www.facebook.com/3Jerry.Liu" alt="Facebook" title="Facebook" target="_blank"><img src="images/icons/facebook.svg" />Facebook</a></li>
+                        <li><a href="https://www.instagram.com/jermy_liu/" alt="Instagram" title="Instagram" target="_blank"><img src="images/icons/instagram.svg" />Instagram</a></li>
                     </ul>
                 </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="projects">
+        <section id="about">
+            <div class="about">
                 <div class="column-2">
                     <ul>
-                        <li>Lorem ipsum doloret</li>
-                        <li>Lorem ipsum doloret</li>
-                        <li>Lorem ipsum doloret</li>
-                        <li>Lorem ipsum doloret</li>
+                        <li>You're dealing with a lot of white space</li>
+                        <li>I don't think the layout is working tbh</li>
+                        <li>But let me know what you think!</li>
+                        <li>Things are easy to change.</li>
                     </ul>
                 </div>
                 <div class="column-2">
@@ -74,6 +74,12 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="projects">
+            <div class="projects"></div>
+        </section>
+        <section id="passions">
+            <div class="passions"></div>
         </section>
     </body>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
