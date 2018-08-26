@@ -8,7 +8,7 @@ html, body {
 
 h1, h2, h3, a {font-family: 'Libre Franklin', sans-serif;}
 h2, h3 {margin-left: 0.83em;}
-p, li {font-family: 'Lato', sans-serif;}
+span, p, li {font-family: 'Lato', sans-serif;}
 a {text-decoration: none; transition: color 0.5s ease; cursor: pointer;}
 a:link, a:visited {color: #000;}
 a:hover {color: orange;}
