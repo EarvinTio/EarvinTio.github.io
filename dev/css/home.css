@@ -1,0 +1,119 @@
+@media only screen and (min-width: 43.125em) {
+
+section img {position: absolute;}
+
+a img {position: relative;}
+h3 a img:nth-child(1) {margin-right: 0.5em;}
+h3 a img:nth-child(2) {
+  background-color: #000;
+  max-width: 0.9em;
+  transition: background-color 0.5s ease;
+  margin-left: 0.1em;
+}
+
+.introText {width: 100%;}
+
+.left {width: 20vw; min-width: 20vw;}
+
+.exptext {margin-left: 5vw;}
+.exptext > p {margin-left: 2vw;}
+.exptext > h3, p {transition: font-size 0.5s ease;}
+.exptext > h3:hover {font-size: 1.8em; cursor: pointer;}
+/*.exptext > h3:hover > a:nth-child(2) {color: orange;}*/
+.exptext > h3:hover > a img:nth-child(2) {background-color: orange;}
+/*.exptext > h3 > a {margin: 0 0.1em 0 0.5em;}*/
+
+/*-------------------------------Developed By Codeconvey.com-------------------------------*/
+
+.downArrow{
+	margin: 7vh 0 0 25vw;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+/*-------------------------------Developed By Codeconvey.com-------------------------------*/
+
+}
+
+@media only screen and (max-width: 43.125em) {
+  html, body {
+    overflow: hidden;
+  }
+
+  .resp {
+    display: flex;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .resp > div {
+    max-width: 80vw;
+  }
+
+  .resp > div > p > a {
+    text-decoration: none;
+    color: orange;
+    font-family: inherit;
+  }
+
+  .resp > div > a > img {background-color: orange; max-width: 20vw;}
+}

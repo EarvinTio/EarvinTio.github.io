@@ -1,0 +1,156 @@
+section a:link, section a:visited {border-bottom: solid 0.15em orange;}
+
+section img {
+	display: block;
+	width: 20vw;
+	margin: 1em auto;
+}
+
+ul {list-style: none;}
+
+li::before {
+	content: "\2022";
+	color: orange;
+	display: inline-block;
+	width: 2em;
+	margin-left: 1em;
+}
+
+p, li {line-height: 1.5em;}
+
+.left {width: 20vw; min-width: 20vw; position: fixed;}
+.exptext {margin-left: 25vw;}
+.exptext > p {margin-left: 2vw;}
+
+.date {color: #AAA;}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 21.75vw 21.75vw;
+	grid-gap: 1.5vw;
+    margin: 5vh 5vw;
+}
+
+.grid-container-1 {
+	display: grid;
+	grid-template-columns: 45vw;
+	grid-gap: 1.5vw;
+    margin: 5vh 5vw;
+}
+
+.grid-item {
+	height: 40vh;
+	position: relative;
+	overflow: hidden;
+}
+
+#schematic {
+	background: url('../images/rappelwear/schematic.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#pcb {
+	background: url('../images/rappelwear/pcb.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#without_components {
+	background: url('../images/rappelwear/without_components.jpg') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#with_components {
+	background: url('../images/rappelwear/with_components.jpg') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#lda {
+	background: url('../images/rappelwear/LDA.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#confusion_matrix {
+	background: url('../images/rappelwear/confusion_matrix.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#o_arm {
+	background: url('../images/sunnybrook/o_arm.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#stealthstation {
+	background: url('../images/sunnybrook/stealthstation.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#telemed {
+	background: url('../images/sunnybrook/telemed.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#epiphan {
+	background: url('../images/sunnybrook/epiphan.jpg') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#architecture {
+	background: url('../images/sunnybrook/architecture.jpg') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#fusion {
+	background: url('../images/sunnybrook/fusion.png') center;
+	height: 100%;
+	margin: 0;
+	transition: all .5s;
+	background-size: cover;
+}
+
+#schematic_grid:hover #schematic, #schematic_grid:focus #schematic {opacity: 0.7; transform: scale(1.2);}
+#pcb_grid:hover #pcb, #pcb_grid:focus #pcb {opacity: 0.7; transform: scale(1.2);}
+#without_components_grid:hover #without_components, #without_components_grid:focus #without_components {opacity: 0.7; transform: scale(1.2);}
+#with_components_grid:hover #with_components, #with_components_grid:focus #with_components {opacity: 0.7; transform: scale(1.2);}
+#lda_grid:hover #lda, #lda_grid:focus #lda {opacity: 0.7; transform: scale(1.2);}
+#confusion_matrix_grid:hover #confusion_matrix, #confusion_matrix_grid:focus #confusion_matrix {opacity: 0.7; transform: scale(1.2);}
+#o_arm_grid:hover #o_arm, #o_arm_grid:focus #o_arm {opacity: 0.7; transform: scale(1.2);}
+#stealthstation_grid:hover #stealthstation, #stealthstation_grid:focus #stealthstation {opacity: 0.7; transform: scale(1.2);}
+#telemed_grid:hover #telemed, #telemed_grid:focus #telemed {opacity: 0.7; transform: scale(1.2);}
+#epiphan_grid:hover #epiphan, #epiphan_grid:focus #epiphan {opacity: 0.7; transform: scale(1.2);}
+#architecture_grid:hover #architecture, #architecture_grid:focus #architecture {opacity: 0.7; transform: scale(1.2);}
+#fusion_grid:hover #fusion, #fusion_grid:focus #fusion {opacity: 0.7; transform: scale(1.2);}
+
+.grid-item:hover {cursor: pointer;}
