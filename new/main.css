@@ -1,0 +1,127 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+section {
+	max-width: 93.75em;
+	min-height: 100vh;
+	width: 50vw;
+	margin: 0 auto;
+}
+
+hr {
+	text-align: left;
+	margin: 1em 0 0 0;
+	width: 15%;
+}
+
+span {
+	color: #000;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h3, h4, p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3, p {
+	color: #b7b7b7;
+}
+
+h3 ,h4 {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+h3 {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 0 1em 1em 1em;
+}
+
+nav img {
+	width: 3em;
+	height: 3em;
+	background-color: #b7b7b7;
+	transition: background-color 350ms ease;
+}
+
+.active {
+	color: #000;
+}
+
+.active:link, .active:visited {
+	color: #000;
+}
+
+.navimg {
+	float: left;
+	clear: both;
+}
+
+nav a img:hover {
+	background-color: #000;
+}
+
+section img {
+	width: 25vw;
+	height: auto;
+}
+
+a { 
+	text-decoration: none;
+	transition: color 350ms ease;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+}
+
+section a:link, a:visited {color: #b7b7b7;}
+section a:hover {color: #000;}
+section a:active {color: #000;}
+
+section a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #000;  
+  transform: scaleX(0);  
+  transition: transform 350ms ease-in-out;
+  transform-origin:  0% 50%; 
+}
+
+section a:hover:after { transform: scaleX(1); }
+
+.home {
+	position: relative;
+	top: 30vh;
+	overflow: auto;
+}
+
+.work {
+	position: sticky;
+	top: 0;
+	overflow: auto;
+	background-color: #fff;
+}
+
+.entry {
+	padding: 2em 0;
+}
