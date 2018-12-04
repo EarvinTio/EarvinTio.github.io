@@ -111,10 +111,9 @@ section a:after {
 
 section a:hover:after { transform: scaleX(1); }
 
-#home div {
-	position: relative;
-	top: 30vh;
-	overflow: auto;
+#home {
+	display: flex;
+	align-items: center;
 }
 
 #work div:nth-child(1) {
