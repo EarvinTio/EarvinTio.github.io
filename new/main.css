@@ -164,6 +164,6 @@ footer span {
 	nav {max-width: 20vw; padding: 0 3vw 0 0;}
 	footer,section img {display: none;}
 	.entry {padding:0;}
-	.entry:nth-last-child(1) hr {margin-bottom: 1em;}
+	.entry:nth-last-child(1) hr {padding-bottom: 1em;}
  
 }
