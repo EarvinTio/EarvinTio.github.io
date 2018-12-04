@@ -1,3 +1,5 @@
+if (screen && screen.width > 450) {
+
 $(document).ready(function() {
 
 	$(document).on("scroll", onScroll);
@@ -76,4 +78,6 @@ function onScroll(event){
 			currLink.addClass("active");
 		}
 	});
+}
+
 }
