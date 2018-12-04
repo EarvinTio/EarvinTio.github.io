@@ -111,13 +111,13 @@ section a:after {
 
 section a:hover:after { transform: scaleX(1); }
 
-#home {
+#home div {
 	position: relative;
 	top: 30vh;
 	overflow: auto;
 }
 
-#work {
+#work div:nth-child(1) {
 	position: -webkit-sticky;
 	position: -moz-sticky;
 	position: -ms-sticky;
@@ -157,7 +157,7 @@ footer span {
   }
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 450px){
 
 	h1 {font-size: 3em;}
 	section {max-width: 77vw; width: 77vw; margin: 0 0 0 5vw;}
