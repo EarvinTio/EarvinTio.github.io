@@ -32,7 +32,7 @@ h1, h2 {
 	font-family: 'Playfair Display', serif;
 }
 
-h3, h4, p {
+h3, h4, p, li {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -161,9 +161,8 @@ footer span {
 
 	h1 {font-size: 3em;}
 	section {max-width: 77vw; width: 77vw; margin: 0 0 0 5vw;}
-	nav {max-width: 20vw; padding: 0 3vw 0 0;}
+	nav {max-width: 15vw; padding: 0 3vw 0 0;}
 	footer,section img {display: none;}
 	.entry {padding:0;}
-	.entry:nth-last-child(1) hr {padding-bottom: 1em;}
  
 }
