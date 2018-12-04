@@ -111,13 +111,13 @@ section a:after {
 
 section a:hover:after { transform: scaleX(1); }
 
-.home {
+#home {
 	position: relative;
 	top: 30vh;
 	overflow: auto;
 }
 
-.work {
+#work {
 	position: -webkit-sticky;
 	position: -moz-sticky;
 	position: -ms-sticky;

@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$(document).on("scroll", onScroll);
+
 	// smooth scrolling
 	$('a[href^="#"]').on('click', function (e) {
 		e.preventDefault();
@@ -63,3 +65,15 @@ document.addEventListener('DOMContentLoaded',function(event){
 	// start the text animation
 	StartTextAnimation(0);
 });
+
+function onScroll(event){
+	var scrollPos = $(document).scrollTop();
+	$('nav p a').each(function () {
+		var currLink = $(this);
+		var refElement = $(currLink.attr("href"));
+		if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+			$('nav p a').removeClass("active");
+			currLink.addClass("active");
+		}
+	});
+}
