@@ -19,36 +19,13 @@ hr {
 	width: 15%;
 }
 
-span {
-	color: #000;
-}
-
-h1 {
-	font-size: 4em;
-	margin: 0;
-}
-
-h1, h2 {
-	font-family: 'Playfair Display', serif;
-}
-
-h3, h4, p, li {
-	font-family: 'Open Sans', sans-serif;
-}
-
-h3, p {
-	color: #b7b7b7;
-}
-
-h3 ,h4 {
-	font-weight: normal;
-	font-size: 1.2em;
-}
-
-h3 {
-	text-transform: uppercase;
-	margin: 0;
-}
+span {color: #000;}
+h1 {font-size: 4em; margin: 0;}
+h1, h2 {font-family: 'Playfair Display', serif;}
+h3, h4, p, li {font-family: 'Open Sans', sans-serif;}
+h3, p {color: #b7b7b7;}
+h3 ,h4 {font-weight: normal; font-size: 1.2em;}
+h3 {text-transform: uppercase; margin: 0;}
 
 nav {
 	position: fixed;
@@ -65,13 +42,8 @@ nav img {
 	transition: background-color 350ms ease;
 }
 
-.active {
-	color: #000;
-}
-
-.active:link, .active:visited {
-	color: #000;
-}
+.active {color: #000;}
+.active:link, .active:visited {color: #000;}
 
 .navimg {
 	float: left;
