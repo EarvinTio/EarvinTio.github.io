@@ -160,6 +160,7 @@ footer span {
 @media only screen and (max-width: 450px){
 
 	h1 {font-size: 3em;}
+	hr {width: 25%;}
 	section {max-width: 77vw; width: 77vw; margin: 0 0 0 5vw;}
 	nav {max-width: 15vw; padding: 0 3vw 0 0;}
 	footer,section img {display: none;}
