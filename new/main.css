@@ -55,6 +55,7 @@ nav {
 	top: 0;
 	right: 0;
 	padding: 0 1em 1em 1em;
+	max-width: 25vw;
 }
 
 nav img {
@@ -88,6 +89,7 @@ section img {
 
 a { 
 	text-decoration: none;
+	color: #b7b7b7;
 	transition: color 350ms ease;
 	cursor: pointer;
 	display: inline-block;
@@ -128,4 +130,29 @@ section a:hover:after { transform: scaleX(1); }
 
 .entry {
 	padding: 2em 0;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 1em 1em 1em 1em;
+	max-width: 25vw;
+	text-align: right;
+}
+
+footer p {
+	margin: 0;
+	font-size: 0.8em;
+}
+
+footer span {
+	color: #b7b7b7;
+	animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+	border-color: transparent;
+  }
 }
