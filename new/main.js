@@ -22,6 +22,7 @@ $(document).ready(function() {
 
 });
 
+// source: https://css-tricks.com/snippets/css/typewriter-effect/
 document.addEventListener('DOMContentLoaded',function(event){
 	// array with texts to type in typewriter
 	var dataText = [ "Developed", "Designed", "Coded"];
