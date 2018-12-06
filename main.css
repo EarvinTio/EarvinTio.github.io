@@ -103,7 +103,8 @@ section a:hover:after { transform: scaleX(1); }
 .entry:nth-child(2) {margin-top: 2em;}
 
 .entry hr {
-	margin: 2em 0;
+	margin: 1em 0 2em 0;
+	display: inline-block;
 }
 
 footer {
