@@ -20,7 +20,7 @@ function updateFields(xml){
 	fieldRand = noDuplicate(fieldRand, xml, false);
 	document.getElementById("line").innerHTML = xml.responseXML.getElementsByTagName("line")[fieldRand].childNodes[0].nodeValue;
     document.getElementById("title").innerHTML = xml.responseXML.getElementsByTagName("title")[fieldRand].childNodes[0].nodeValue;
-    document.getElementById("author").innerHTML = xml.responseXML.getElementsByTagName("author")[fieldRand].childNodes[0].nodeValue;
+    //document.getElementById("author").innerHTML = xml.responseXML.getElementsByTagName("author")[fieldRand].childNodes[0].nodeValue;
 }
 
 function updateButton(xml){
