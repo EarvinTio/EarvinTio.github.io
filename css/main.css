@@ -22,10 +22,12 @@ hr {
 span {color: #000;}
 h1 {font-size: 4em; margin: 0;}
 h1, h2 {font-family: 'Playfair Display', serif;}
-h3, h4, p, li {font-family: 'Open Sans', sans-serif;}
-h3, p {color: #949494;}
-h3 ,h4 {font-weight: normal; font-size: 1.2em;}
+h3, h4, h5, p, li {font-family: 'Open Sans', sans-serif;}
+h3, p, h5 {color: #949494;}
+h3 ,h4, h5 {font-weight: normal; font-size: 1.2em;}
 h3 {text-transform: uppercase; margin: 0;}
+h4 {margin-bottom: 0;}
+h5 {margin: 0 0 1em 0;}
 
 nav {
 	position: fixed;
@@ -56,8 +58,8 @@ nav a img:hover {
 }
 
 section img {
-	width: 25vw;
-	height: auto;
+	width: auto;
+	height: 10vh;
 }
 
 a { 
@@ -99,6 +101,9 @@ section a:hover:after { transform: scaleX(1); }
 	overflow: auto;
 	background-color: #fff;
 }
+
+#work p {margin: 0;}
+#work ul {margin-top: 0.25em;}
 
 .entry:nth-child(2) {margin-top: 2em;}
 
