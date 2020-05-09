@@ -91,6 +91,8 @@ section a:hover:after { transform: scaleX(1); }
 	align-items: center;
 }
 
+#home div:nth-child(1) {margin-top: 3em;}
+
 #work div:nth-child(1) {
 	position: -webkit-sticky;
 	position: -moz-sticky;
