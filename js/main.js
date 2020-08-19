@@ -1,3 +1,10 @@
+$(window).resize(function(){
+	if ($(window).width()<768) {
+		$('span').removeAttr('tooltip');
+	}
+})
+.resize();
+
 $(document).on("scroll", onScroll);
 
 if (screen && screen.width > 450) {
