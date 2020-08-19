@@ -1,5 +1,5 @@
 $(window).resize(function(){
-	if ($(window).width()<768) {
+	if ($(window).width()<1000) {
 		$('span').removeAttr('tooltip');
 	}
 })
