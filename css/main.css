@@ -62,6 +62,15 @@ section img {
 	height: 10vh;
 }
 
+/*li a {
+	transition: none;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}*/
+
 a { 
 	text-decoration: none;
 	color: #000;
