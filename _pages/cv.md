@@ -1,11 +1,11 @@
 ---
 layout: cv
-permalink: /cv/
-title: cv
+permalink: /community/
+title: Mentorship & Community
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 3
+cv_pdf:
+description: I am very passionate about teaching, mentorship, and community outreach. Learn more about my activities in these areas including articles I have written for [Elemental Magazine](https://www.elementalmag.ca/) - the University of Toronto's (UofT) student-led mental health magazine - and efforts to highlight graduate student wellness at the Institute of Medical Science (IMS).
 toc:
   sidebar: left
 ---

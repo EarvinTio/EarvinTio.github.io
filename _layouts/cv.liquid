@@ -105,6 +105,14 @@ layout: default
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
+                {% when 'Teaching' %}
+                  {% include resume/work.liquid %}
+                {% when 'Mentorship' %}
+                  {% include resume/work.liquid %}
+                {% when 'Elemental Magazine' %}
+                  {% include resume/publications.liquid %}
+                {% when "Let's Talk Grad Wellness" %}
+                  {% include resume/projects.liquid %}
                 {% else %}
 
               {% endcase %}
