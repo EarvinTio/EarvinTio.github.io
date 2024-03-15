@@ -1,5 +1,5 @@
 {
-  "work": [
+  "Teaching": [
     {
       "position": "MSC1090 - Introduction to Computational Biostatistics with R",
       "summary": "As a teaching assistant for this graduate-level course delivered through IMS, I assist Dr. Erik Spence in the delivery of this course and provide graduate students with a strong theoretical understanding of statistics and essential computational skills (Bash, R) needed to apply the theory to real world data."
@@ -13,7 +13,7 @@
       "summary": "I am s a guest lecturer for NeuroSci 101, a free course organized by the Collaborative Program in Neuroscience at UofT, offered to high school students interested in learning more about neuroscience. I developed and delivered interactive lecture material on Neural Networks & Artificial Brains."
     }
   ],
-  "work": [
+  "Mentorship": [
     {
       "position": "GradMinds Peer Support Initiative",
       "summary": "I was a founding member and executive member of the GMPS, a peer support initiative led by GradMinds, the Mental Health Committee of the UofT’s Graduate Student Union. The GMPS was focused on providing fellow graduate students a safe and judgment-free space to interact with other graduate students. I worked with other executive members to gather training opportunities for mentors affiliated with GMPS. As a mentor myself, I maintained 8 mentorship relationships over two years."
@@ -27,7 +27,7 @@
       "summary": "I am a mentor for the CPIN Undergraduate Mentorship Program which offers senior undergraduate students interested in graduate programs in neuroscience an opportunity to connect with current graduate students and learn about the application process and day to day work of graduate research. I have mentored 3 students through this program."
     }
   ],
-  "publications": [
+  "Elemental Magazine": [
     {
       "name": "Shkaabe Makwa, bringing First Nations, Inuit, and Métis Mental Health to the Forefront—an interview with Louis Busch.",
       "publisher": "Issue 11. Hope & Resilience (2024)",
