@@ -1,16 +1,13 @@
 ---
 layout: page
-title: submenus
+title: publications
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
+  - title: Google Scholar
+    permalink: https://scholar.google.com/citations?user=zrA1WeoAAAAJ&hl=en
   - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: ORCID
+    permalink: https://orcid.org/0000-0002-0521-779X
 ---

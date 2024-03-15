@@ -15,8 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate at the Institute of Medical Science at the University of Toronto. I am part of the [Whole Person & Population Modelling](https://www.felskylab.com/) Lab in the Krembil Centre for Neuroinformatics at the Centre for Addiction and Mental Health, where I work with biobank-scale data and develop biopsychosocial machine learning models to predict suicide and related behaviours.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining Professor Daniel Felsky’s lab, I completed an Honours Bachelor’s of Applied Science (B.A.Sc.) in Systems Design Engineering with a minor in Artificial Intelligence at the University of Waterloo (2020), during which I held research positions at SickKids hospital and Sunnybrook hospital, and completed a semester abroad at École Polytechnique Fédérale de Lausanne.
