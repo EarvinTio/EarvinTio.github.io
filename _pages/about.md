@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. candidate @ [University of Toronto](https://ims.utoronto.ca/)
+subtitle: "Ph.D. candidate @ [University of Toronto](https://ims.utoronto.ca/)"
 
 profile:
   align: left
