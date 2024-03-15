@@ -63,7 +63,7 @@ layout: default
         {% endif %}
       </h1>
       {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+        <p class="post-description">{{ page.description | markdownify }}</p>
       {% endif %}
     </header>
 
@@ -106,10 +106,10 @@ layout: default
                 {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% when 'Teaching' %}
-                  {% include resume/work.liquid %}
+                  {% include resume/custom.liquid %}
                 {% when 'Mentorship' %}
-                  {% include resume/work.liquid %}
-                {% when 'Elemental' %}
+                  {% include resume/custom.liquid %}
+                {% when 'Elemental Magazine' %}
                   {% include resume/publications.liquid %}
                 {% else %}
 
