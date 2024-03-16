@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: "Ph.D. candidate @ [University of Toronto](https://ims.utoronto.ca/)"
 
