@@ -27,7 +27,7 @@
       "summary": "I am a mentor for the CPIN Undergraduate Mentorship Program which offers senior undergraduate students interested in graduate programs in neuroscience an opportunity to connect with current graduate students and learn about the application process and day to day work of graduate research. I have mentored 3 students through this program."
     }
   ],
-  "Elemental": [
+  "Elemental Magazine": [
     {
       "name": "Shkaabe Makwa, bringing First Nations, Inuit, and Métis Mental Health to the Forefront—an interview with Louis Busch.",
       "publisher": "Issue 11. Hope & Resilience (2024)",
@@ -35,12 +35,14 @@
     },
     {
       "name": "Sleep, psychiatric diagnoses, and beyond—an interview with Dr. Michael Wainberg.",
-      "publisher": "Issue 9. Physical Health & Mental Health (2022) pp.30-31",
+      "publisher": "Issue 9. Physical Health & Mental Health (2022)",
+      "summary": "pp.30-31",
       "url": "https://issuu.com/elementalmagazine/docs/elemental_issue_9_physical_health"
     },
     {
       "name": "The evolving understanding of substance use during the pandemic—an interview with Dr. Tara Elton-Marshall.",
-      "publisher": "Issue 7. COVID-19 (2021) pp.30-31",
+      "publisher": "Issue 7. COVID-19 (2021)",
+      "summary": "pp.30-31",
       "url": "https://issuu.com/elementalmagazine/docs/elemental_issue_7_-_covid-19"
     }
   ]
