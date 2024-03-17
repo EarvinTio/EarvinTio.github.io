@@ -78,12 +78,12 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-	    {% assign words = data[0] | split: ' ' %}
- 	    {% capture titlecase %}
-	      {% for word in words %}
-	        {{ word | capitalize }}
-	      {% endfor %}
-	    {% endcapture %}
+            {% assign words = data[0] | split: ' ' %}
+            {% capture titlecase %}
+              {% for word in words %}
+                {{ word | capitalize }}
+              {% endfor %}
+            {% endcapture %}
             <h3 class="card-title font-weight-medium">{{ titlecase }}</h3>
             <div>
               {% case data[0] %}
@@ -117,8 +117,8 @@ layout: default
                   {% include resume/custom.liquid %}
                 {% when 'Elemental Magazine' %}
                   {% include resume/custom_pubs.liquid %}
-		{% when 'Let's Talk Grad Wellness' %}
-		  {% include resume/custom.liquid %}
+                {% when "Let's Talk Grad Wellness" %}
+                  {% include resume/custom.liquid %}
                 {% else %}
 
               {% endcase %}
