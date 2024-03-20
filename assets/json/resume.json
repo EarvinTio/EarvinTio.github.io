@@ -6,25 +6,28 @@
     },
     {
       "position": "Krembil Centre for Neuroinformatics Summer Academy",
-      "summary": "I serve as a teaching assistant for the KCNI Summer Academy, an annual workshop held at the Centre for Addiction and Mental Health open to local and international researchers interested in getting hands-on experience with neuroinformatics. I developed and delivered workshops focused on SNP-level data integration using MetaXcan and PRSice-2."
+      "summary": "The KCNI Summer Academy is an annual workshop held at the Centre for Addiction and Mental Health open to local and international researchers interested in getting hands-on experience with neuroinformatics. I have developed and delivered teaching material focused on SNP-level genetic data integration using [MetaXcan](https://github.com/hakyimlab/MetaXcan) and [PRSice](https://github.com/choishingwan/PRSice)."
     },
     {
       "position": "NeuroSci 101 - Neural Networks & Artificial Brains",
-      "summary": "I am a guest lecturer for NeuroSci 101, a free course organized by the Collaborative Program in Neuroscience at UofT, offered to high school students interested in learning more about neuroscience. I developed and delivered interactive lecture material on Neural Networks & Artificial Brains."
+      "summary": "I am a guest lecturer for [NeuroSci 101](https://neurosci101cpin.wordpress.com/), a free course organized by the [Collaborative Program in Neuroscience](https://neuroscience.utoronto.ca/) at UofT, offered to high school students interested in learning more about neuroscience. I have developed and delivered interactive lecture material on Neural Networks & Artificial Brains."
     }
   ],
   "Mentorship": [
     {
       "position": "GradMinds Peer Support Initiative",
-      "summary": "I was a founding member and executive member of the GMPS, a peer support initiative led by GradMinds, the Mental Health Committee of the UofT’s Graduate Student Union. The GMPS was focused on providing fellow graduate students a safe and judgment-free space to interact with other graduate students. I worked with other executive members to gather training opportunities for mentors affiliated with GMPS. As a mentor myself, I maintained 8 mentorship relationships over two years."
+      "summary": "I was a founding member and executive member of the GMPS, a peer support initiative led by [GradMinds](https://www.gradminds.ca/), the Mental Health Committee of the UofT’s Graduate Student Union. The GMPS was focused on providing fellow graduate students a safe and judgment-free space to interact with other graduate students. I worked with other executive members to gather training opportunities for mentors affiliated with GMPS and also acted as a mentor for the program.",
+      "highlights": "Students mentored: 8 graduate students."
     },
     {
       "position": "Neurological and Neurodegenerative Disease Student Association",
-      "summary": "I am a mentor for NANSA, a student-run organization at UofT fostering student interest in research related to neurological diseases. I have mentored 3 undergraduate students through this organization."
+      "summary": "I am a mentor for [NANSA](https://sop.utoronto.ca/group/neurological-and-neurodegenerative-disease-student-association-nansa/), a student-run organization at UofT fostering student interest in research related to neurological diseases.",
+      "highlights": "Students mentored: 3 undergraduate students."
     },
     {
       "position": "Collaborative Program in Neuroscience Undergraduate Mentorship Program",
-      "summary": "I am a mentor for the CPIN Undergraduate Mentorship Program which offers senior undergraduate students interested in graduate programs in neuroscience an opportunity to connect with current graduate students and learn about the application process and day to day work of graduate research. I have mentored 3 students through this program."
+      "summary": "I am a mentor for the CPIN Undergraduate Mentorship Program which offers senior undergraduate students interested in graduate programs in neuroscience an opportunity to connect with current graduate students and learn about the application process and day to day work of graduate research.",
+      "highlights": "Students mentored: 3 undergraduate students."
     }
   ],
   "Elemental Magazine": [
