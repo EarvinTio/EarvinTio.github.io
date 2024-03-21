@@ -2,7 +2,7 @@
   "Teaching": [
     {
       "position": "MSC1090 - Introduction to Computational Biostatistics with R",
-      "summary": "As a teaching assistant for this graduate-level course delivered through IMS, I assist Dr. Erik Spence in the delivery of this course and provide graduate students with a strong theoretical understanding of statistics and essential computational skills (Bash, R) needed to apply the theory to real world data."
+      "summary": "As a teaching assistant for this graduate-level course delivered through IMS, I assist Dr. [Erik Spence](https://www.scinethpc.ca/staff/) in the delivery of this course and provide graduate students with a strong theoretical understanding of statistics and essential computational skills (Bash, R) needed to apply the theory to real world data."
     },
     {
       "position": "Krembil Centre for Neuroinformatics Summer Academy",
@@ -16,7 +16,7 @@
   "Mentorship": [
     {
       "position": "GradMinds Peer Support Initiative",
-      "summary": "I was a founding member and executive member of the GMPS, a peer support initiative led by [GradMinds](https://www.gradminds.ca/), the Mental Health Committee of the [UofT’s Graduate Student Union](https://utgsu.ca/). The GMPS was focused on providing fellow graduate students a safe and judgment-free space to interact with other graduate students. I worked with other executive members to gather training opportunities for mentors affiliated with GMPS and also acted as a mentor for the program.",
+      "summary": "I am a founding member and executive member of the GMPS, a peer support initiative led by [GradMinds](https://www.gradminds.ca/), the Mental Health Committee of the [UofT’s Graduate Student Union](https://utgsu.ca/). The GMPS is focused on providing fellow graduate students a safe and judgment-free space to interact with other graduate students. I work with other executive members to gather training opportunities for mentors affiliated with GMPS and also acted as a mentor for the program.",
       "highlights": "<b>Students mentored:</b> 8 graduate students."
     },
     {
@@ -51,7 +51,7 @@
   ],
   "Let's Talk Grad Wellness": [
     {
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus finibus fringilla. Donec lacus mi, pulvinar ut dictum ut, auctor non arcu. Nunc consectetur arcu eu elit facilisis convallis. Praesent molestie finibus dui, quis euismod massa imperdiet sit amet. Fusce dignissim dictum leo ac tristique. Etiam eu nunc iaculis, accumsan neque eu, varius mi. Donec consequat erat dui. Etiam purus lectus, vulputate eget ultricies id, dignissim ut libero. Ut efficitur ipsum vel sem suscipit ornare."
+      "summary": "LTGW is a [Research & Health Sciences Education](https://rhse.temertymedicine.utoronto.ca/) funded grant that focuses on facilitating conversations about graduate student wellness across the IMS. As an executive member, I lead LTGW in bringing a focus to student-supervisor relationships, mental health resources and advocacy, as well as wellness integration in the department. For example, LTGW has adapted the [individual development plan](https://cihr-irsc.gc.ca/e/50516.html) from the Canadian Institutes of Health Research to include student-focused content and co-developed new curriculum with the IMS to implement IDPs into every student's professional development."
     }
   ]
 }
