@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Ph.D. in Medical Science ([Neuroscience](https://neuroscience.utoronto.ca/)) at the [University of Toronto](https://ims.utoronto.ca/)"
+subtitle: "Ph.D. in [Medical Science](https://ims.utoronto.ca/) ([Neuroscience](https://neuroscience.utoronto.ca/)) at the University of Toronto"
 
 profile:
   align: left
