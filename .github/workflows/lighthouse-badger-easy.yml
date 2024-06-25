@@ -14,8 +14,8 @@ name: "Lighthouse-Badger-Easy"
 
 # INPUTS as environmental variables (env) for not manually triggered workflows 
 env:
-  URLS: "https://github.com/EarvinTio https://earvintio.com"
-  TOKEN_NAME: "LIGHTHOUSE_BADGER_TOKEN"
+  URLS: https://earvintio.com
+  TOKEN_NAME: LIGHTHOUSE_BADGER_TOKEN
   REPO_BRANCH: "${{ github.repository }} main"
 
 # TRIGGERS
