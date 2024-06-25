@@ -14,10 +14,9 @@ name: "Lighthouse-Badger-Easy"
 
 # INPUTS as environmental variables (env) for not manually triggered workflows 
 env:
-  URLS: "https://github.com/EarvinTio https://earvintio.com" # URL(s) to be checked e.g. 'https://github.com/sitdisch https://github.com/mythemeway'
-  TOKEN_NAME: "LIGHTHOUSE_BADGER_TOKEN" # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
-  # THAT'S IT; JUMP TO THE TRIGGERS;
-  REPO_BRANCH: "${{ github.repository }} main" # target repo & branch
+  URLS: "https://github.com/EarvinTio https://earvintio.com"
+  TOKEN_NAME: "LIGHTHOUSE_BADGER_TOKEN"
+  REPO_BRANCH: "${{ github.repository }} main"
 
 # TRIGGERS
 on:
