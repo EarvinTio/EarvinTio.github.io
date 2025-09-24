@@ -2,7 +2,11 @@
   "Teaching": [
     {
       "position": "MSC1090 - Introduction to Computational Biostatistics with R",
-      "summary": "As a teaching assistant for this graduate-level course delivered through IMS, I assist Dr. [Erik Spence](https://www.scinethpc.ca/staff/) in the delivery of this course and provide graduate students with a strong theoretical understanding of statistics and essential computational skills (Bash, R) needed to apply the theory to real world data."
+      "summary": "As a teaching assistant for this [graduate-level course](https://scinethpc.ca/graduate-courses/) delivered through IMS, I assist Dr. Erik Spence in the delivery of this course and provide graduate students with a strong theoretical understanding of statistics and essential computational skills (Bash, R) needed to apply the theory to real world data."
+    },
+    {
+      "position": "FSC430H5 - Seminar in Forensic Science",
+      "summary": "I am a guest lecturer for [FSC430H5](https://utm.calendar.utoronto.ca/course/fsc430h5), a capstone course for undergraduate students enrolled in the Forensic Science minor at the University of Toronto. I developed and delivered interactive material for my lecture titled 'Using Big Data and Machine Learning to Answer Research Questions in Psychiatry'."
     },
     {
       "position": "Krembil Centre for Neuroinformatics Summer Academy",
@@ -10,7 +14,7 @@
     },
     {
       "position": "NeuroSci 101 - Neural Networks & Artificial Brains",
-      "summary": "I am a guest lecturer for [NeuroSci 101](https://neuroscience.utoronto.ca/neurosci-101-high-school-neuroscience-course), a free course organized by the [Collaborative Program in Neuroscience](https://neuroscience.utoronto.ca/) at UofT, offered to high school students interested in learning more about neuroscience. I have developed and delivered interactive lecture material on Neural Networks & Artificial Brains."
+      "summary": "I am a guest lecturer for [NeuroSci 101](https://neuroscience.utoronto.ca/neurosci-101-high-school-neuroscience-course), a free course organized by the [Collaborative Program in Neuroscience](https://neuroscience.utoronto.ca/) at UofT, offered to high school students interested in learning more about neuroscience. I developed and delivered interactive material for my lecture titled 'Neural Networks & Artificial Brains'."
     }
   ],
   "Mentorship": [
@@ -21,7 +25,7 @@
     },
     {
       "position": "Neurological and Neurodegenerative Disease Student Association",
-      "summary": "I am a mentor for [NANSA](https://sop.utoronto.ca/group/neurological-and-neurodegenerative-disease-student-association-nansa/), a student-run organization at UofT fostering student interest in research related to neurological diseases.",
+      "summary": "I am a mentor for [NANSA](https://myutsu.ca/organisation/6131/), a student-run organization at UofT fostering student interest in research related to neurological diseases.",
       "highlights": "<b>Students mentored:</b> 3 undergraduate students."
     },
     {
