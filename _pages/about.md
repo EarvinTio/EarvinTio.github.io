@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Ph.D. in [Medical Science](https://ims.utoronto.ca/) ([Neuroscience](https://neuroscience.utoronto.ca/)) at the University of Toronto"
+subtitle: "Ph.D. in [Medical Science](https://ims.utoronto.ca/) ([Neuroscience](https://neuroscience.utoronto.ca/)) from the University of Toronto\nB.A.Sc. in [Systems Design Engineering](https://uwaterloo.ca/future-students/programs/systems-design-engineering) ([Artificial Intelligence](https://uwaterloo.ca/engineering/undergraduate-students/degree-enhancement/options)) from the University of Waterloo"
 
 profile:
   align: left
