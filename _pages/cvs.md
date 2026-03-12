@@ -6,8 +6,8 @@ nav_order: 4
 dropdown: true
 children:
   - title: Abriged
-    permalink: ../assets/pdf/cv_snapshot.pdf
+    permalink: ../assets/pdf/cv_abridged.pdf
   - title: divider
   - title: Full
-    permalink: https://orcid.org/0000-0002-0521-779X
+    permalink: ../assets/pdf/cv_full.pdf
 ---
