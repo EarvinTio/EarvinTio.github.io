@@ -15,6 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-As part of the [Whole Person & Population Modelling](https://www.felskylab.com/) Lab in the Krembil Centre for Neuroinformatics at the Centre for Addiction and Mental Health, I work with biobank-scale data to develop biopsychosocial machine learning models of suicide-related phenotypes.
+As a postdoctoral fellow at the [Whole Person & Population Modelling Lab](https://www.felskylab.com/) in the Krembil Centre for Neuroinformatics at the Centre for Addiction and Mental Health, I lead the predictive modelling efforts for an [NIH-funded grant](https://reporter.nih.gov/search/Ot-rVrV750CHAHTHP7az_A/project-details/10954667) investigating treatment-resistant late-life depression. I also work with biobank-scale datasets to develop biopsychosocial machine learning models of suicide-related phenotypes.
 
-Before joining Professor [Daniel Felsky](https://scholar.google.ca/citations?hl=en&user=L75YFRkAAAAJ)’s lab, I completed an Honours Bachelor’s of Applied Science (B.A.Sc.) in Systems Design Engineering with a minor in Artificial Intelligence at the University of Waterloo (2020), during which I held research positions at SickKids hospital and Sunnybrook hospital, and completed a semester abroad at École Polytechnique Fédérale de Lausanne.
+My research focuses on understanding psychopathology in relation to suicide and sociodemographic factors, particularly among transitional-aged youth. I am passionate about advancing this work and am actively seeking postdoctoral opportunities where I can continue conducting impactful, interdisciplinary research.
+
