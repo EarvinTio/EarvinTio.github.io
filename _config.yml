@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Earvin
 middle_name: S.
-last_name: Tio
+last_name: Tio, PhD
 email:
 description:
 footer_text:
@@ -468,6 +468,3 @@ jsonresume:
   - Mentorship
   - Elemental Magazine
   - Let's Talk Grad Wellness
-
-# CV PDF nav
-# cv_pdf: cv_full.pdf
